@@ -6,7 +6,7 @@ const detailNameElement = document.getElementById('detail-name')
 const detailRestaurantElement = document.getElementById('detail-restaurant')
 const detailLocationElement = document.getElementById('detail-location')
 
-fetch("https://raw.githubusercontent.com/this-is-how-it-should-be/food/refs/heads/main/db.json?token=GHSAT0AAAAAAC5V6GQRFKWQWPLEC6PIO2MKZ4RTOUQ")
+fetch("https://raw.githubusercontent.com/this-is-how-it-should-be/food/refs/heads/main/db.json")
 .then(response => response.json())
 .then(data => {
     const foods = data.foods
