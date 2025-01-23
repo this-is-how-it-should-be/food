@@ -6,9 +6,10 @@ const detailNameElement = document.getElementById('detail-name')
 const detailRestaurantElement = document.getElementById('detail-restaurant')
 const detailLocationElement = document.getElementById('detail-location')
 
-fetch("http://localhost:3000/foods")
+fetch("https://raw.githubusercontent.com/this-is-how-it-should-be/food/refs/heads/main/db.json?token=GHSAT0AAAAAAC5V6GQRFKWQWPLEC6PIO2MKZ4RTOUQ")
 .then(response => response.json())
-.then(foods => {
+.then(data => {
+    const foods = data.foods
     foods.forEach(addFoodImageToRestaurantMenu)
     displayFoodDetails(foods[0])
     foodDetailsSectionDivElement.style.display = "block"
