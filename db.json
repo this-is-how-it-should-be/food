@@ -1,0 +1,13 @@
+{
+    "foods": [
+        {
+            "id": 1,
+            "name": "Lucky Six Soup Dumplings",
+            "image": "assets/images/lucky_six_soup_dumplings.png",
+            "description": "A mouthwatering medley of six uniquely-flavored soup dumplings, made with all-natural ingredients.",
+            "restaurant": "Nan Xiang Soup Dumplings - Flushing",
+            "address": "39-16 Prince St #104, Flushing, NY 11354",
+            "google_maps_link": "https://maps.app.goo.gl/kmd36LoHzbmoWYXw8?g_st=com.google.maps.preview.copy"
+        }
+    ]
+}
