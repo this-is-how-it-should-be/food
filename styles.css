@@ -39,6 +39,11 @@ header {
     margin-right: 0;
 }
 
+#food-details-section, #restaurant-details-section, button, #restaurant-details-section h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #food-details-section, #restaurant-details-section {
     display: none;
 }
@@ -57,4 +62,25 @@ header {
     padding: 0.25rem 5rem 0.25rem 1rem;
     background-color: rgba(255, 255, 255, 0.8);
     bottom: 60px;
+}
+
+button {
+    height: 100px;
+    width: 25%;
+    font-size: 40px;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#directions-button{
+    background-color: green;
+}
+
+#yelp-button{
+    background-color: red;
 }

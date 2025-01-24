@@ -5,6 +5,8 @@ const detailImageElement = document.getElementById("detail-image")
 const detailNameElement = document.getElementById('detail-name')
 const detailRestaurantElement = document.getElementById('detail-restaurant')
 const detailLocationElement = document.getElementById('detail-location')
+const directionsLinkElement = document.getElementById('directions-link')
+const yelpLinkElement = document.getElementById('yelp-link')
 
 fetch("https://raw.githubusercontent.com/this-is-how-it-should-be/food/refs/heads/main/db.json")
 .then(response => response.json())
@@ -30,5 +32,6 @@ function displayFoodDetails(food){
     detailNameElement.textContent = food.name
     detailRestaurantElement.textContent = food.restaurant
     detailLocationElement.textContent = food.address
-    detailLocationElement.href = food.google_maps_link
+    directionsLinkElement.href = food.google_maps_link
+    yelpLinkElement.href = food.yelp_link
 }
