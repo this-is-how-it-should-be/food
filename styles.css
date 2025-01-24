@@ -73,15 +73,20 @@ button {
     cursor: pointer;
 }
 
-a{
+a {
     text-decoration: none;
     width: 100%;
 }
 
-#directions-button{
+#directions-button {
     background-color: green;
 }
 
-#yelp-button{
+#yelp-button {
     background-color: red;
+}
+
+#food-description-header {
+    border: 3px solid blue;
+    padding: 30px;
 }

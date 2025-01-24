@@ -7,6 +7,7 @@ const detailRestaurantElement = document.getElementById('detail-restaurant')
 const detailLocationElement = document.getElementById('detail-location')
 const directionsLinkElement = document.getElementById('directions-link')
 const yelpLinkElement = document.getElementById('yelp-link')
+const foodDescriptionTextElement = document.getElementById('food-description-text')
 
 fetch("https://raw.githubusercontent.com/this-is-how-it-should-be/food/refs/heads/main/db.json")
 .then(response => response.json())
@@ -30,6 +31,7 @@ function addFoodImageToRestaurantMenu(food){
 function displayFoodDetails(food){
     detailImageElement.src = food.image
     detailNameElement.textContent = food.name
+    foodDescriptionTextElement.textContent = food.description
     detailRestaurantElement.textContent = food.restaurant
     detailLocationElement.textContent = food.address
     directionsLinkElement.href = food.google_maps_link
