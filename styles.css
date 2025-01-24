@@ -65,8 +65,8 @@ header {
 }
 
 button {
-    height: 100px;
-    width: 25%;
+    height: 200px;
+    width: 50%;
     font-size: 40px;
     border-radius: 200px;
     cursor: pointer;
