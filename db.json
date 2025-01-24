@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Lucky Six Soup Dumplings",
-            "image": "assets/images/lucky_six_soup_dumplings.png",
+            "image": "./assets/images/lucky_six_soup_dumplings.png",
             "description": "A mouthwatering medley of six uniquely-flavored soup dumplings, made with all-natural ingredients.",
             "restaurant": "Nan Xiang Soup Dumplings - Flushing",
             "address": "39-16 Prince St #104, Flushing, NY 11354",
@@ -13,12 +13,22 @@
         {
             "id": 2,
             "name": "Tokyo Tonkotsu Shouyu Ramen",
-            "image": "assets/images/tokyo_tonkotsu_shouyu.png",
+            "image": "./assets/images/tokyo_tonkotsu_shouyu.png",
             "description": "Served with, Chashu Pork, Half Marinated Egg, Corn, Bamboo Shoots, Wakame, Scallion, Nori (Pork Broth)",
             "restaurant": "KYURAMEN - Flushing",
             "address": "133-42 37th Ave, Flushing, NY 11354",
             "google_maps_link": "https://maps.app.goo.gl/YJ8hJwh8Y2KNiroj7?g_st=com.google.maps.preview.copy",
             "yelp_link": "https://yelp.to/eysxvTDWRG"
+        },
+        {
+            "id": 3,
+            "name": "Crazy Nana Roll",
+            "image": "./assets/images/crazy_nana_roll.png",
+            "description": "Filled with shrimp tempura, spicy tuna, along with a layer of spicy lobster, mango, eel and avocado. Topped with a fried soft shell crab and sprinkled with crab crunch.",
+            "restaurant": "Izakaya Nana",
+            "address": "141-28 Northern Blvd, Flushing, NY 11354",
+            "google_maps_link": "https://maps.app.goo.gl/vbMX61xamxjwTFXn9?g_st=com.google.maps.preview.copy",
+            "yelp_link": "https://yelp.to/PkDyYPrzIy"
         }
     ]
 }
