@@ -14,7 +14,7 @@
             "id": 2,
             "name": "Tokyo Tonkotsu Shouyu Ramen",
             "image": "./assets/images/tokyo_tonkotsu_shouyu.png",
-            "description": "Served with Chashu Pork, Half Marinated Egg, Corn, Bamboo Shoots, Wakame, Scallion, Nori (Pork Broth)",
+            "description": "Served with Chashu Pork, Half Marinated Egg, Corn, Bamboo Shoots, Wakame, Scallion, Nori (Pork Broth).",
             "restaurant": "KYURAMEN - Flushing",
             "address": "133-42 37th Ave, Flushing, NY 11354",
             "google_maps_link": "https://maps.app.goo.gl/YJ8hJwh8Y2KNiroj7?g_st=com.google.maps.preview.copy",
