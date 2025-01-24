@@ -29,6 +29,16 @@
             "address": "141-28 Northern Blvd, Flushing, NY 11354",
             "google_maps_link": "https://maps.app.goo.gl/vbMX61xamxjwTFXn9?g_st=com.google.maps.preview.copy",
             "yelp_link": "https://yelp.to/PkDyYPrzIy"
+        },
+        {
+            "id": 4,
+            "name": "Lamb Tikka",
+            "image": "./assets/images/lamb_tikka.png",
+            "description": "Tender chunks of lamb, marinated in special seasonings and grilled to perfection on skewers.",
+            "restaurant": "Kabul Kabab House",
+            "address": "42-51 Main St, Flushing, NY 11355",
+            "google_maps_link": "https://maps.app.goo.gl/spgtrzfMFQUrynk1A?g_st=com.google.maps.preview.copy",
+            "yelp_link": "https://yelp.to/q4-SIIlEHo"
         }
     ]
 }
