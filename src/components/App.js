@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 function App() {
 
   const [foods, setFoods] = useState([]);
+  const [displayedFood, setDisplayedFood] = useState(null)
 
   useEffect(getFoods, [])
 
@@ -14,6 +15,11 @@ function App() {
     .then(response => response.json())
     .then(data => {
       setFoods(data.foods)
+
+      if(data.foods.length > 0){
+        const firstFood = data.foods[0]
+        setDisplayedFood(firstFood)
+      }
     })
   }
 
