@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Header/>
-      <FoodMenu/>
+      <FoodMenu foods={foods}/>
     </>
   );
 }
