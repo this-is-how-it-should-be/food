@@ -1,7 +1,12 @@
-function FoodMenu(){
+function FoodMenu({foods}){
+
+    const imgElements = foods.map(food => {
+        return <img key={food.id} src={food.image} alt={food.name}/>
+    })
+
     return (
         <div id="food-menu">
-            {/* Food Images Here */}
+            {imgElements}
         </div>
     );
 }
