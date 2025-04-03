@@ -44,10 +44,6 @@ header {
   margin-bottom: 10px;
 }
 
-#food-details-section, #restaurant-details-section {
-  display: none;
-}
-
 #food-details-section {
   position: relative;
 }
