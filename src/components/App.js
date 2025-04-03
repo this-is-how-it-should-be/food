@@ -2,6 +2,7 @@ import Header from "./Header";
 import FoodMenu from "./FoodMenu";
 import FoodDetails from "./FoodDetails";
 import FoodDescription from "./FoodDescription";
+import RestaurantDetails from "./RestaurantDetails";
 
 import { useState, useEffect } from "react";
 
@@ -31,6 +32,7 @@ function App() {
       <FoodMenu foods={foods}/>
       {displayedFood ? <FoodDetails displayedFood={displayedFood}/> : null}
       {displayedFood ? <FoodDescription displayedFood={displayedFood}/> : null}
+      {displayedFood ? <RestaurantDetails displayedFood={displayedFood}/> : null}
     </>
   );
 }
