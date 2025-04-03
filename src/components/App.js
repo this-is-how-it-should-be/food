@@ -1,5 +1,6 @@
 import Header from "./Header";
 import FoodMenu from "./FoodMenu";
+import FoodDetails from "./FoodDetails";
 
 import { useState, useEffect } from "react";
 
@@ -27,6 +28,7 @@ function App() {
     <>
       <Header/>
       <FoodMenu foods={foods}/>
+      {displayedFood ? <FoodDetails displayedFood={displayedFood}/> : null}
     </>
   );
 }
