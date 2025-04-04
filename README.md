@@ -16,26 +16,26 @@ Here are local setup instructions necessary for opening this webpage locally on 
 
 1. Run the following command in your terminal to create a copy of this repository in your computer:
 
-```sh
-git clone https://github.com/this-is-how-it-should-be/food.git
-```
+    ```sh
+    git clone https://github.com/this-is-how-it-should-be/food.git
+    ```
 
 2. Run the following command in your terminal to change your current working directory to the `food` directory:
 
-```sh
-cd food
-```
+    ```sh
+    cd food
+    ```
 
 3. Open the `index.html` file in your browser to run the application.
 
-- For macOS users, run the following command in your terminal to open the `index.html` file in your browser:
+    - For macOS users, run the following command in your terminal to open the `index.html` file in your browser:
 
-```sh
-open index.html
-```
+        ```sh
+        open index.html
+        ```
 
-- For Windows users, run the following command in your terminal to open the `index.html` file in your browser:
+    - For Windows users, run the following command in your terminal to open the `index.html` file in your browser:
 
-```sh
-explorer.exe index.html
-```
+        ```sh
+        explorer.exe index.html
+        ```
