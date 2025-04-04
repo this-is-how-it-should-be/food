@@ -28,7 +28,7 @@ Here are local setup instructions necessary for opening this webpage locally on 
     cd food
     ```
 
-3. Open the `index.html` file in your browser to run the application.
+3. Choose one of the following options to open the `index.html` file in your browser, depending on your computer's operating system:
 
     - For macOS users, run the following command in your terminal to open the `index.html` file in your browser:
 
