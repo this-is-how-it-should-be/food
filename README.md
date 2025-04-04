@@ -9,3 +9,7 @@ All you need to do is click on a food that you like, you'll see all of the infor
 ## Setup
 
 Open the `index.html` file on your browser to run the application.
+
+## Deployed Webpage Link
+
+https://this-is-how-it-should-be.github.io/food/
