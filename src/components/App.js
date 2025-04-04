@@ -3,6 +3,7 @@ import FoodMenu from "./FoodMenu";
 import FoodDetails from "./FoodDetails";
 import FoodDescription from "./FoodDescription";
 import RestaurantDetails from "./RestaurantDetails";
+import Links from "./Links";
 
 import { useState, useEffect } from "react";
 
@@ -33,6 +34,7 @@ function App() {
       {displayedFood ? <FoodDetails displayedFood={displayedFood}/> : null}
       {displayedFood ? <FoodDescription displayedFood={displayedFood}/> : null}
       {displayedFood ? <RestaurantDetails displayedFood={displayedFood}/> : null}
+      {displayedFood ? <Links displayedFood={displayedFood}/> : null}
     </>
   );
 }
