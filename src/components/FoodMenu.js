@@ -1,7 +1,7 @@
-function FoodMenu({foods}){
+function FoodMenu({foods, updateDisplayedFood}){
 
     const imgElements = foods.map(food => {
-        return <img key={food.id} src={food.image} alt={food.name}/>
+        return <img onClick={() => updateDisplayedFood(food)} key={food.id} src={food.image} alt={food.name}/>
     })
 
     return (
