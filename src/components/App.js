@@ -27,14 +27,27 @@ function App() {
     })
   }
 
+  function renderDisplayedFoodSection(){
+    if(displayedFood){
+      return (
+        <>
+          <FoodDetails displayedFood={displayedFood}/>
+          <FoodDescription displayedFood={displayedFood}/>
+          <RestaurantDetails displayedFood={displayedFood}/>
+          <Links displayedFood={displayedFood}/>
+        </>
+      )
+    }
+    else{
+      return null
+    }
+  }
+
   return (
     <>
       <Header/>
       <FoodMenu foods={foods}/>
-      {displayedFood ? <FoodDetails displayedFood={displayedFood}/> : null}
-      {displayedFood ? <FoodDescription displayedFood={displayedFood}/> : null}
-      {displayedFood ? <RestaurantDetails displayedFood={displayedFood}/> : null}
-      {displayedFood ? <Links displayedFood={displayedFood}/> : null}
+      {renderDisplayedFoodSection()}
     </>
   );
 }
