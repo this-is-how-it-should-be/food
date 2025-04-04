@@ -27,6 +27,10 @@ function App() {
     })
   }
 
+  function updateDisplayedFood(food){
+    setDisplayedFood(food)
+  }
+
   function renderDisplayedFoodSection(){
     if(displayedFood){
       return (
@@ -46,7 +50,7 @@ function App() {
   return (
     <>
       <Header/>
-      <FoodMenu foods={foods}/>
+      <FoodMenu foods={foods} updateDisplayedFood={updateDisplayedFood}/>
       {renderDisplayedFoodSection()}
     </>
   );
