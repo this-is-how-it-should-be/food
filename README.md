@@ -10,7 +10,7 @@ This webpage was built with React.
 
 ## Local Setup Instructions
 
-Here are local setup instructions necessary for opening this webpage locally on your browser. Please note that you'll need to use a terminal that can execute git commands to be able to run the command in the first step of these local setup instructions.
+Here are local setup instructions necessary for opening this webpage locally on your browser. Please note that you'll need to use a terminal that can execute git commands to be able to run the commands in steps 1 and 3 of these local setup instructions.
 
 1. Run the following command in your terminal to create a copy of this repository in your computer:
 
