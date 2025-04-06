@@ -1,0 +1,94 @@
+css_code = """
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding: 0.5rem;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+#food-menu {
+    display: flex;
+    overflow-x: auto;
+    margin: 1rem 0;
+    max-width: calc(100vw - 2rem);
+}
+
+#food-menu img {
+    flex: 0 1 auto;
+    height: 150px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+#food-menu img:last-child {
+    margin-right: 0;
+}
+
+#food-details-section, #restaurant-details-section, button, #restaurant-details-section h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#food-details-section, #restaurant-details-section {
+    display: none;
+}
+
+#food-details-section {
+    position: relative;
+}
+
+#detail-image {
+    height: 500px;
+}
+
+#detail-name {
+    position: absolute;
+    left: 10px;
+    padding: 0.25rem 5rem 0.25rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 60px;
+}
+
+button {
+    color: white;
+    height: 200px;
+    width: 50%;
+    font-size: 40px;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+}
+
+#directions-button {
+    background-color: green;
+}
+
+#yelp-button {
+    background-color: red;
+}
+
+#food-description-header {
+    border: 3px solid blue;
+    padding: 30px;
+}
+"""
