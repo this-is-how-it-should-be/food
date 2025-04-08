@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 flask = "*"
+flask-migrate = "*"
+flask-sqlalchemy = "*"
+sqlalchemy-serializer = "*"
+flask-restful = "*"
+flask-cors = "*"
 
 [requires]
 python_full_version = "3.8.13"
