@@ -54,4 +54,4 @@ Here are local setup instructions necessary for opening this webpage locally on 
     python app.py
     ```
 
-8. Open [http://localhost:4000](http://localhost:4000) to view the webpage in your browser.
+8. Open [http://127.0.0.1:4000](http://127.0.0.1:4000) to view the webpage in your browser.
